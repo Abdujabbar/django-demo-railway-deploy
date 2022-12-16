@@ -1,0 +1,15 @@
+{% extends 'layouts/default.html' %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'base.css' %}">
+
+{% load i18n %}
+
+<main role="main" class="container">
+  <div class="row">
+      {% trans "Welcome to home page!" %}
+  </div><!-- /.row -->
+
+</main><!-- /.container -->
+
+{% endblock %}

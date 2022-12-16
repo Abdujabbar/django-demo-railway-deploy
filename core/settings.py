@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-)uvcfjy$!&)s-&muj0s(k0#hoa7ul3)-iue9ir7dnx^c_5t@a(
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'django-demo-railway-deploy-production.up.railway.app'
+    'django-demo-railway-deploy-production.up.railway.app',
+    '*'
 ]
 
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'bootstrap4',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +59,9 @@ ROOT_URLCONF = 'core.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / "templates",
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

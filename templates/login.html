@@ -1,0 +1,15 @@
+{% extends 'layouts/default.html' %}
+{% load bootstrap4 %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'base.css' %}">
+
+{% load i18n %}
+<h2>{{heading_title}}</h2>
+<form method="post">{% csrf_token %}
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    {% buttons submit='Login' %}{% endbuttons %}
+</form>
+
+{% endblock %}

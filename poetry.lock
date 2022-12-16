@@ -84,6 +84,18 @@ setproctitle = ["setproctitle"]
 tornado = ["tornado (>=0.2)"]
 
 [[package]]
+name = "pip"
+version = "22.3.1"
+description = "The PyPA recommended tool for installing Python packages."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pip-22.3.1-py3-none-any.whl", hash = "sha256:908c78e6bc29b676ede1c4d57981d490cb892eb45cd8c214ab6298125119e077"},
+    {file = "pip-22.3.1.tar.gz", hash = "sha256:65fd48317359f3af8e593943e6ae1506b66325085ea64b706a998c6e83eeaf38"},
+]
+
+[[package]]
 name = "python-dotenv"
 version = "0.21.0"
 description = "Read key-value pairs from a .env file and set them as environment variables"
@@ -142,4 +154,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "be06cc8666205203a7d7c80779c35ed532ab41835f9eccef266c1ff0e4c2a818"
+content-hash = "3ecb384c569beebbd35446ac974ac7c6a498af5b73bd8efe64cfaa0824e8d073"

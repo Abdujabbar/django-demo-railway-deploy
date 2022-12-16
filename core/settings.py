@@ -121,7 +121,7 @@ STATIC_ROOT = BASE_DIR / "static"
 STATIC_URL = "static/"
 
 # Enable WhiteNoise's GZip compression of static assets.
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+# STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 # STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 # import os
 # PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))

@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Abdujabbar MIRKHALIKOV <abdujabbar.mirkhalikov@prestataire.sewan.fr>"]
 readme = "README.md"
-packages = [{include = "django_demo_app_railway_deploy"}]
+packages = [{include = "core"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
